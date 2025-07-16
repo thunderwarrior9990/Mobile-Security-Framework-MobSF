@@ -52,6 +52,11 @@ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:la
 * Conference Presentations: [Slides & Videos](https://mobsf.github.io/Mobile-Security-Framework-MobSF/presentations.html)
 * MobSF Online Course: [OpSecX MAS](https://opsecx.com/index.php/product/automated-mobile-application-security-assessment-with-mobsf/)
 * What's New: [See Changelog](https://mobsf.github.io/Mobile-Security-Framework-MobSF/changelog.html)
+### Pattern Scanning Utility
+Use `scripts/app_content_scanner.py` to scan an APK or IPA for custom patterns.
+Example:
+`python scripts/app_content_scanner.py sample.apk --opcodes opcodes.txt --profanity words.txt --filetypes bad_extensions.txt`
+
 
 ## Collaborators
 
